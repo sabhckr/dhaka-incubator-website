@@ -5,45 +5,45 @@ type Item = { q: { en: string; bn: string }; a: { en: string; bn: string } };
 
 const ITEMS: Item[] = [
   {
-    q: { en: 'Will the incubator work during load-shedding?', bn: 'লোডশেডিং চলাকালীন কি ইনকিউবেটর কাজ করবে?' },
+    q: { en: 'Will the incubator work during load-shedding?', bn: 'লোডশেডিং হলে ইনকিউবেটর চলবে কি?' },
     a: {
       en: 'Yes — every incubator runs on 220V mains and is fully compatible with IPS, solar inverters, and standard generators. Insulation keeps the inner temperature stable for 30–45 minutes during short outages.',
-      bn: 'হ্যাঁ — প্রতিটি ইনকিউবেটর ২২০ ভোল্টে চলে এবং আইপিএস, সোলার ইনভার্টার ও জেনারেটরের সাথে সম্পূর্ণ সামঞ্জস্যপূর্ণ। ৩০–৪৫ মিনিট পর্যন্ত আভ্যন্তরীণ তাপমাত্রা স্থিতিশীল থাকে।',
+      bn: 'জি, কোনো সমস্যা নেই। সব ইনকিউবেটর ২২০ ভোল্টে চলে, IPS, সোলার বা জেনারেটর — যেকোনোটার সাথে চালাতে পারবেন। ছোটখাটো লোডশেডিং হলেও ভেতরের তাপমাত্রা ৩০–৪৫ মিনিট ঠিক থাকে।',
     },
   },
   {
-    q: { en: 'Manual vs Automatic — which one should I choose?', bn: 'ম্যানুয়াল না অটোমেটিক — কোনটি নেব?' },
+    q: { en: 'Manual vs Automatic — which one should I choose?', bn: 'ম্যানুয়াল নাকি অটোমেটিক — কোনটা নেব?' },
     a: {
       en: 'For 24+ eggs or daily commercial use, choose Automatic — it turns eggs every 2 hours on its own. For under 24 eggs, hobby projects, or schools, Manual is cheaper and just as effective if you can rotate eggs 3 times a day.',
-      bn: '২৪+ ডিম বা প্রতিদিনের বাণিজ্যিক ব্যবহারের জন্য অটোমেটিক বেছে নিন — এটি প্রতি ২ ঘণ্টায় ডিম ঘোরায়। ২৪-এর কম ডিম বা শখের জন্য ম্যানুয়াল সাশ্রয়ী।',
+      bn: '২৪টার বেশি ডিম হলে বা ব্যবসার জন্য নিলে অটোমেটিক নেন — প্রতি ২ ঘণ্টায় ডিম নিজে নিজে ঘোরে। আর শখ করে বা স্কুলের জন্য নিলে ম্যানুয়াল-ই যথেষ্ট, দামও কম। দিনে ৩ বার হাতে ঘোরালেই হবে।',
     },
   },
   {
-    q: { en: 'How long does delivery take?', bn: 'ডেলিভারিতে কত সময় লাগে?' },
+    q: { en: 'How long does delivery take?', bn: 'ডেলিভারিতে কতদিন লাগে?' },
     a: {
       en: 'Inside Dhaka: 24–48 hours. Outside Dhaka: 2–4 working days via Sundarban / SA Paribahan / RedX. You pay the courier directly when the parcel arrives — that is Cash on Delivery.',
-      bn: 'ঢাকার ভিতরে: ২৪–৪৮ ঘণ্টা। ঢাকার বাইরে: ২–৪ কর্মদিবস (সুন্দরবন / এসএ পরিবহন / RedX)। পার্সেল হাতে পেলে কুরিয়ারকে সরাসরি পরিশোধ করবেন।',
+      bn: 'ঢাকার ভেতরে ১–২ দিনে পেয়ে যাবেন। ঢাকার বাইরে ২–৪ দিন লাগে (সুন্দরবন, এসএ পরিবহন বা RedX)। পার্সেল হাতে পেয়ে কুরিয়ারকেই টাকা দিবেন — এটাই ক্যাশ অন ডেলিভারি।',
     },
   },
   {
-    q: { en: 'What is the warranty and how do I claim it?', bn: 'ওয়ারেন্টি কী এবং কীভাবে ক্লেইম করব?' },
+    q: { en: 'What is the warranty and how do I claim it?', bn: 'ওয়ারেন্টি কতদিনের, কীভাবে পাব?' },
     a: {
       en: 'Incubators carry 1-year service warranty on electronic parts; fans and gadgets carry 6 months. Just send a video of the issue on WhatsApp — we replace, repair, or refund within 7 days.',
-      bn: 'ইনকিউবেটরে ইলেকট্রনিক পার্টসে ১ বছর ওয়ারেন্টি; ফ্যান ও গ্যাজেটে ৬ মাস। হোয়াটসঅ্যাপে সমস্যার ভিডিও পাঠান — ৭ দিনের মধ্যে সমাধান।',
+      bn: 'ইনকিউবেটরে ইলেকট্রনিক পার্টসের জন্য ১ বছরের ওয়ারেন্টি দিচ্ছি, ফ্যান আর গ্যাজেটে ৬ মাস। কোনো সমস্যা হলে হোয়াটসঅ্যাপে একটা ভিডিও পাঠান — ৭ দিনের ভেতরেই বদলে দেব বা ঠিক করে দেব।',
     },
   },
   {
-    q: { en: 'Do you offer training or setup support?', bn: 'প্রশিক্ষণ বা সেটআপ সাপোর্ট পাওয়া যাবে?' },
+    q: { en: 'Do you offer training or setup support?', bn: 'সেটআপ বা ট্রেনিং সাপোর্ট পাব?' },
     a: {
       en: 'Yes. Every order includes a free Bangla setup video and unlimited WhatsApp support for the first month. For commercial buyers we also offer one-on-one calls.',
-      bn: 'হ্যাঁ। প্রতিটি অর্ডারে ফ্রি বাংলা সেটআপ ভিডিও এবং প্রথম মাসে আনলিমিটেড হোয়াটসঅ্যাপ সাপোর্ট রয়েছে। বাণিজ্যিক ক্রেতাদের জন্য ১-অন-১ কলও উপলব্ধ।',
+      bn: 'অবশ্যই। প্রতিটা অর্ডারের সাথে বাংলায় সেটআপ ভিডিও ফ্রি দিচ্ছি, আর প্রথম এক মাস হোয়াটসঅ্যাপে যেকোনো সময় হেল্প পাবেন। ব্যবসার জন্য কিনলে ফোনেও আলাদা করে বুঝিয়ে দেই।',
     },
   },
   {
-    q: { en: 'Can I see the product before paying?', bn: 'পেমেন্টের আগে কি পণ্য দেখা যাবে?' },
+    q: { en: 'Can I see the product before paying?', bn: 'টাকা দেওয়ার আগে প্রোডাক্ট দেখতে পারব?' },
     a: {
       en: 'Yes. With Cash on Delivery you may inspect the carton, check the model name, and confirm visible damage before paying the courier. Internal testing happens at home after setup.',
-      bn: 'হ্যাঁ। ক্যাশ অন ডেলিভারিতে কুরিয়ারকে পেমেন্টের আগে কার্টন দেখে মডেল ও বাহ্যিক ক্ষতি যাচাই করতে পারবেন।',
+      bn: 'জি অবশ্যই। ক্যাশ অন ডেলিভারিতে টাকা দেওয়ার আগে কার্টন খুলে মডেল আর বাইরের অবস্থা দেখে নিতে পারবেন। ভেতরে চালু করে টেস্ট তো বাসায় গিয়েই করবেন।',
     },
   },
 ];
@@ -58,7 +58,7 @@ export default function FAQ({ lang }: { lang: Lang }) {
             <HelpCircle className="w-3 h-3" /> FAQ
           </div>
           <h2 className={`mt-4 text-3xl sm:text-4xl font-black text-slate-900 ${bn ? 'font-bn' : ''}`}>
-            {bn ? 'যা প্রায়ই জিজ্ঞেস করা হয়' : 'Questions, answered'}
+            {bn ? 'যা প্রশ্ন আসে, উত্তরও দিচ্ছি' : 'Questions, answered'}
           </h2>
         </div>
 
