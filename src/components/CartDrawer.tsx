@@ -123,6 +123,7 @@ Payment: Cash on Delivery
               >
                 <Send className="w-4 h-4" /> {tr.confirm}
               </button>
+              <p className={`text-[11px] text-slate-400 text-center ${bn ? 'font-bn leading-relaxed' : ''}`}>{tr.hint}</p>
             </div>
           </motion.aside>
         </>

@@ -100,7 +100,7 @@ export default function Testimonials({ lang }: { lang: Lang }) {
                   ))}
                 </div>
               </div>
-              <p className={`mt-4 text-sm text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`}>"{r.text[lang]}"</p>
+              <p className={`mt-4 text-sm text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`} style={bn ? { lineHeight: 1.9 } : undefined}>“{r.text[lang]}”</p>
             </motion.div>
           ))}
         </div>

@@ -53,7 +53,7 @@ export default function ProductModal({ product, lang, onClose, onAdd }: Props) {
                 )}
               </div>
 
-              <p className={`mt-4 text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`}>{product.description[lang]}</p>
+              <p className={`mt-4 text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`} style={bn ? { lineHeight: 1.85 } : undefined}>{product.description[lang]}</p>
 
               <div className="mt-6">
                 <h4 className={`text-sm font-bold uppercase tracking-wider text-slate-500 ${bn ? 'font-bn' : ''}`}>{tr.specs}</h4>

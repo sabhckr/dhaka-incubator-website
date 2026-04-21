@@ -39,7 +39,7 @@ export default function Hero({ lang }: { lang: Lang }) {
 
         <motion.p
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
-          className={`mt-6 max-w-2xl text-white/80 text-base sm:text-lg ${bn ? 'font-bn' : ''}`}
+          className={`mt-6 max-w-2xl text-white/80 text-base sm:text-lg ${bn ? 'font-bn leading-relaxed' : ''}`}
         >
           {tr.subtitle}
         </motion.p>

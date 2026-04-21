@@ -88,7 +88,7 @@ export default function Footer({ lang }: { lang: Lang }) {
                 <ShieldCheck className="w-6 h-6" />
               </div>
               <h3 className={`mt-4 text-xl font-black ${bn ? 'font-bn' : ''}`}>{tr.warrantyTitle}</h3>
-              <p className={`mt-2 text-slate-600 ${bn ? 'font-bn' : ''}`}>{tr.warrantyBody}</p>
+              <p className={`mt-2 text-slate-600 ${bn ? 'font-bn leading-relaxed' : ''}`}>{tr.warrantyBody}</p>
             </motion.div>
           </motion.div>
         )}

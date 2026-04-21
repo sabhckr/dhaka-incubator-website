@@ -27,8 +27,11 @@ export default function ProductGrid({ lang, onAdd, onView }: Props) {
     <section id="products" className="bg-white py-20 sm:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className={`text-3xl sm:text-4xl font-black tracking-tight text-slate-900 ${bn ? 'font-bn' : ''}`}>{tr.title}</h2>
-          <p className={`mt-3 text-slate-600 ${bn ? 'font-bn' : ''}`}>{tr.subtitle}</p>
+          <div className="inline-block px-3 py-1 rounded-full bg-orange-50 text-[var(--color-brand)] text-[10px] font-bold uppercase tracking-widest">
+            {tr.micro}
+          </div>
+          <h2 className={`mt-4 text-3xl sm:text-4xl font-black tracking-tight text-slate-900 ${bn ? 'font-bn' : ''}`}>{tr.title}</h2>
+          <p className={`mt-3 text-slate-600 ${bn ? 'font-bn leading-relaxed' : ''}`}>{tr.subtitle}</p>
         </div>
 
         <div className="mt-8 flex flex-wrap justify-center gap-2">

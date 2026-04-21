@@ -24,7 +24,12 @@ export default function TrustBadges({ lang }: { lang: Lang }) {
   return (
     <section id="trust" className="bg-slate-50 py-20 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h2 className={`text-center text-3xl sm:text-4xl font-black text-slate-900 ${bn ? 'font-bn' : ''}`}>{tr.title}</h2>
+        <div className="text-center max-w-2xl mx-auto">
+          <div className="inline-block px-3 py-1 rounded-full bg-white border border-slate-200 text-slate-700 text-[10px] font-bold uppercase tracking-widest">
+            {tr.micro}
+          </div>
+          <h2 className={`mt-4 text-3xl sm:text-4xl font-black text-slate-900 ${bn ? 'font-bn' : ''}`}>{tr.title}</h2>
+        </div>
 
         <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
           {items.map((it) => (
@@ -37,7 +42,9 @@ export default function TrustBadges({ lang }: { lang: Lang }) {
                 {it.icon}
               </div>
               <div className={`mt-4 font-bold text-slate-900 ${bn ? 'font-bn' : ''}`}>{it.title}</div>
-              <div className="mt-1 text-xs text-slate-500">Tap to learn more</div>
+              <div className="mt-1 text-[10px] uppercase tracking-widest text-slate-400 font-bold">
+                {bn ? 'বিস্তারিত' : 'Learn more'}
+              </div>
             </button>
           ))}
         </div>
@@ -61,7 +68,7 @@ export default function TrustBadges({ lang }: { lang: Lang }) {
               <div className="p-6">
                 <div className="w-12 h-12 rounded-xl bg-orange-50 text-[var(--color-brand)] grid place-items-center">{current.icon}</div>
                 <h3 className={`mt-4 text-xl font-black text-slate-900 ${bn ? 'font-bn' : ''}`}>{current.title}</h3>
-                <p className={`mt-2 text-slate-600 ${bn ? 'font-bn' : ''}`}>{current.body}</p>
+                <p className={`mt-2 text-slate-600 ${bn ? 'font-bn leading-relaxed' : ''}`}>{current.body}</p>
               </div>
               {current.key === 'delivery' && (
                 <div className="aspect-video w-full">

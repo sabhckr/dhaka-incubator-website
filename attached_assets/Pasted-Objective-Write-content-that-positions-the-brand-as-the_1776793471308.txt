@@ -1,0 +1,25 @@
+Objective: Write content that positions the brand as the #1 technical authority for poultry farmers in Bangladesh. The "voice" should sound like a Consultative Expert—someone who is technically brilliant but deeply cares about the customer's business success.
+🇧🇩 1. Bengali Language Rules (Shuddho Cholitobhasha)
+Tone: Use Formal-Modern Bengali (Shuddho Cholitobhasha). Avoid regional slang or overly poetic language.
+Focus on Trust: Use words like নিশ্চিন্ত (Confident), উন্নত (Advanced), টেকসই (Durable), and নির্ভরযোগ্য (Reliable).
+Action-Oriented: Use direct, helpful verbs. Instead of a passive "It can be bought," use "অর্ডার কনফার্ম করুন" (Confirm Order Now).
+Business Success: Connect the product to the result. Instead of just saying it’s a machine, say "আপনার খামারের সফলতার অংশীদার" (Partner in your farm's success).
+Typography Formatting: Use leading-relaxed (extra line spacing) because Bengali vowel markers (kar/u-kar) need room to breathe.
+🇬🇧 2. English Language Rules (Modern Tech/SaaS)
+Tone: Concise, Confident, and Precise. Avoid unnecessary "fluff" words.
+Key Vocabulary: Use "Technology," "Solutions," "Premier," "Advanced," "Precision," and "Nationwide."
+Benefit Mapping: Every feature must lead to a benefit.
+Feature: "Auto Temperature Control."
+Writing: "Precision Temperature Control for Maximum Hatch Rates."
+Formatting: Use sentence case for paragraphs and Uppercase for micro-labels (e.g., "GET STARTED").
+🗣️ 3. The "Voice" Characteristics
+The Authoritative Expert: Speak from a position of knowledge. Use technical terms correctly but explain them simply.
+The Reassuring Partner: Use empathetic language for farmers. Acknowledge their hard work. Use phrases like "সফল খামারিদের বিশ্বাস" (Trusted by successful farmers).
+Total Transparency: Always tell the customer exactly what will happen next. (e.g., "This will redirect you to WhatsApp").
+Bilingual Hybridity: On high-end sections, use a "Main Heading in Bengali" and a "Small Uppercase Label in English" to create an international, premium brand feel.
+🚫 4. What to Avoid (Negative Constraints)
+NO Slang: Avoid "Ok," "Koto" (unless in a quote), or casual chat language.
+NO Hype: Avoid saying "Cheapest" or "Best in the world." Instead, use "সাশ্রয়ী" (Cost-effective) and "বাংলাদেশের সেরা ডিম ফাটানো প্রযুক্তি" (Bangladesh's best hatching technology).
+NO Clutter: Keep sentences short. If a sentence takes two lines, break it into two sentences.
+How to use this:
+If you want to add a new product or a new page, give this prompt to an AI and say: "Based on this style guide, write a description for a new 500-egg Industrial Incubator." It will give you the perfect text!

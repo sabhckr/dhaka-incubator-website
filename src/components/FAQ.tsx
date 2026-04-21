@@ -69,7 +69,7 @@ export default function FAQ({ lang }: { lang: Lang }) {
                 <span className="mt-0.5 w-5 h-5 rounded-full bg-[var(--color-brand)] text-white text-[11px] grid place-items-center font-black">Q</span>
                 <span>{it.q[lang]}</span>
               </div>
-              <p className={`mt-3 pl-7 text-sm text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`}>{it.a[lang]}</p>
+              <p className={`mt-3 pl-7 text-sm text-slate-600 leading-relaxed ${bn ? 'font-bn' : ''}`} style={bn ? { lineHeight: 1.95 } : undefined}>{it.a[lang]}</p>
             </div>
           ))}
         </div>
