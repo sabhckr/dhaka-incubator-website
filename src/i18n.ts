@@ -4,7 +4,7 @@ export const t = {
   en: {
     nav: { home: 'Home', products: 'Products', trust: 'Why Us', contact: 'Contact' },
     hero: {
-      badge: 'Premier Collection · 2026',
+      badge: '',
       title1: 'Precision Hatching',
       title2: 'Technology for Bangladesh.',
       subtitle:
