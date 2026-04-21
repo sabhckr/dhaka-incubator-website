@@ -53,7 +53,7 @@ export const t = {
   bn: {
     nav: { home: 'হোম', products: 'পণ্যসমূহ', trust: 'কেন আমরা', contact: 'যোগাযোগ' },
     hero: {
-      badge: 'প্রিমিয়ার কালেকশন · ২০২৬',
+      badge: '',
       title1: 'উন্নত হ্যাচিং প্রযুক্তি,',
       title2: 'বাংলাদেশের খামারের জন্য।',
       subtitle:

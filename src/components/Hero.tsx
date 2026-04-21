@@ -21,13 +21,15 @@ export default function Hero({ lang }: { lang: Lang }) {
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 max-w-5xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-white text-xs font-semibold uppercase tracking-wider"
-        >
-          <Sparkles className="w-3.5 h-3.5 text-[var(--color-brand)]" />
-          <span className={bn ? 'font-bn' : ''}>{tr.badge}</span>
-        </motion.div>
+        {tr.badge && (
+          <motion.div
+            initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-white text-xs font-semibold uppercase tracking-wider"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-[var(--color-brand)]" />
+            <span className={bn ? 'font-bn' : ''}>{tr.badge}</span>
+          </motion.div>
+        )}
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }}
