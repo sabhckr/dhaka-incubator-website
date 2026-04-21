@@ -1,0 +1,32 @@
+ Dhaka Incubator & Electronic - Master Project Prompt
+Project Goal: Create a high-end, high-conversion e-commerce landing page for "Dhaka Incubator & Electronic," specializing in egg incubators and electronics in Bangladesh.
+Core Technology: React 18+, Tailwind CSS (Modern Engine), Framer Motion (for animations), and Lucide-React (for icons).
+1. Design & Aesthetic:
+Style: "Clean Utility" mixed with "Modern SaaS." High contrast, professional, and trustworthy.
+Color Palette: Primary Brand Orange (#ff6a00), Neutral Grays, and Pure White.
+Typography: Dual-language support. Use "Inter" for English and "Hind Siliguri" for professional Bengali rendering.
+Navigation: A "Glass-morphism" fixed navbar with a language toggle (EN/BN) and a pulse-animated shopping bag icon.
+2. Hero Section:
+Background: A full-screen, looped cinematic video (grayscale/darkened) showing mechanical or industrial movement.
+Content: Bold, oversized white typography with a "Premier Collection" badge.
+CTAs: A primary "Shop Products" button (scrolls to products) and a secondary "Contact Sales" button (triggers a tel: dialer).
+3. Interactive Product Grid:
+Layout: 2x2 grid on mobile, 3-column grid on desktop.
+Filtering: Functional filter bar for categories: "All", "Incubator", "Fan", and "Gadgets".
+Product Cards: Hover-effect cards showing a "Limited Stock" badge, price, and a quick "Add to Cart" (+) button.
+Product Details Modal: Clicking a card opens a large modal with a split layout: Big high-res image on the left, detailed description and technical specifications list on the right.
+4. Trust & Info System:
+Badges: Four interactive badges (COD, 7-Day Replacement, 24/7 Support, Nationwide Delivery).
+Popups: Clicking badges opens dedicated informational modals. The "Nationwide Delivery" badge must open an embedded Google Map of Bangladesh.
+5. Shopping Cart & Checkout:
+Drawer: A modern slide-out cart drawer from the right.
+Functionality: Quantity adjustment (+/-), item removal, and a persistent grand total.
+Checkout Form: A shortened, high-UX form (Name, Phone, Address).
+Order Fulfillment: Clicking "Confirm Order" generates a pre-filled, formatted WhatsApp message for the business owner including the customer details and an itemized receipt.
+6. Footer & Contact:
+Quick Links: "Home" (smooth scroll to top), "Products" (scroll to grid), and "Warranty" (opens info popup).
+Social/Action Icons:
+Phone icon (triggers tel: dialer).
+Message icon (triggers sms: messaging).
+Location icon (links to Google Maps search for the office).
+Copyright & Credits: Signed as "Dhaka Incubator & Electric." Developer credit "Developed by Ishak Hasan Sabbir" with a link to his LinkedIn profile.
