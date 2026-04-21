@@ -1,0 +1,37 @@
+Project Overview: Develop a high-conversion, professional e-commerce landing page for "Dhaka Incubator & Electronic." The site must be optimized for the Bangladeshi market, supporting dual languages (Bengali/English) and mobile-first interactions.
+Tech Stack Requirements:
+Framework: React 18+ with TypeScript.
+Styling: Tailwind CSS (modern configuration).
+Animations: Framer Motion (smooth, spring-based interactions).
+Icons: Lucide-React.
+Deployment Meta: Professional SEO tags (OpenGraph, Meta Description, Favicon).
+🎨 1. Design & UI/UX Strategy
+Aesthetic: "Clean Utility" mixed with "Digital Trust." Use heavy rounded corners (rounded-[3rem]), glass-morphism, and intentional breathing room (spacing).
+Typography: Optimized for readability. Inter (EN) and Hind Siliguri (BN).
+Mobile Grid: Strictly enforce a 2x2 grid for products on mobile to maximize content visibility and minimize scroll distance.
+Navbar: Fixed top bar with glass effect, dual-language toggle, and a pulse-animated cart counter.
+📺 2. Dynamic Sections
+Video Hero Header: A full-bleed, darkened, and looped cinematic video background featuring industrial/mechanical movement. High-contrast white text and a primary "Shop Now" + secondary "Call Now" (tel:) CTA.
+Interactive Trust Badges: High-visibility cards for COD, Replacement, Support, and Delivery. Each must trigger a detailed informational popup. The Delivery Badge must open an interactive embedded Google Map of Bangladesh.
+Product Catalog with Filtering:
+Categories: "All", "Incubator", "Fan", "Gadgets".
+Cards must include a "Quick-Add" (+) button and trigger a detailed modal on click.
+Product Modal: A high-end split layout showing a large product image, formatted description, and a structured grid of technical specifications.
+🤝 3. Trust, Social Proof & Support
+Testimonials (Social Proof): A dedicated section displaying customer reviews with regional locations (e.g., Gazipur, Bogura), star ratings, and initial-based avatars.
+Technical FAQ: A toggle-free, scannable FAQ section answering critical customer questions (Power backup, Manual vs Auto, Delivery).
+Floating CTA: A persistent, green floating WhatsApp button on the bottom-left with a hover-label ("Chat on WhatsApp").
+🛒 4. Commerce & Fulfillment
+Cart Drawer: A vertical slide-out drawer managing items, quantities, and a live-calculated grand total.
+Shortened UX Checkout: A streamlined form capturing only Name, Phone, and Address.
+WhatsApp Order Routing: Clicking "Confirm Order" must generate a perfectly formatted WhatsApp message including:
+👤 Customer details (Name, Phone, Address).
+📦 Itemized receipt (Product Name x Quantity = Total Price).
+💰 Grand Total and a link to the website.
+📍 5. Navigation & Footer
+Interactive Icon Bar:
+Phone: Directly triggers the dialer.
+Message: Triggers default SMS app.
+Map Pin: Links to the business office on Google Maps.
+Functional Footer Links: "Home" (Smooth scroll to top), "Products" (Jump to grid), and "Warranty" (Triggers info popup).
+Developer Credit: Signed as "Dhaka Incubator & Electric" with a "Developed by Ishak Hasan Sabbir" credit linked to his specific LinkedIn profile.

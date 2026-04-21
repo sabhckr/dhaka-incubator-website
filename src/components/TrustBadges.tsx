@@ -31,7 +31,7 @@ export default function TrustBadges({ lang }: { lang: Lang }) {
             <button
               key={it.key}
               onClick={() => setOpen(it.key)}
-              className="group bg-white rounded-2xl border border-slate-100 p-5 text-left hover:border-[var(--color-brand)] hover:shadow-lg transition"
+              className="group bg-white rounded-[2rem] border border-slate-100 p-6 text-left hover:border-[var(--color-brand)] hover:shadow-lg transition"
             >
               <div className="w-12 h-12 rounded-xl bg-orange-50 text-[var(--color-brand)] grid place-items-center group-hover:bg-[var(--color-brand)] group-hover:text-white transition">
                 {it.icon}

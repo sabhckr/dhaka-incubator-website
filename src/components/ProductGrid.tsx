@@ -62,7 +62,7 @@ export default function ProductGrid({ lang, onAdd, onView }: Props) {
                 exit={{ opacity: 0, scale: 0.96 }}
                 transition={{ duration: 0.25 }}
                 whileHover={{ y: -4 }}
-                className="group relative bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-sm hover:shadow-xl transition cursor-pointer"
+                className="group relative bg-white rounded-[2rem] border border-slate-100 overflow-hidden shadow-sm hover:shadow-xl transition cursor-pointer"
                 onClick={() => onView(p)}
               >
                 <div className="relative aspect-square overflow-hidden bg-slate-100">

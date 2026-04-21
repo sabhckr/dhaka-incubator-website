@@ -41,7 +41,9 @@ export default function CartDrawer({ open, onClose, items, setQty, remove, lang 
 ${lines.join('\n')}
 
 *Grand Total: ৳ ${total.toLocaleString()}*
-Payment: Cash on Delivery`;
+Payment: Cash on Delivery
+
+🌐 ${typeof window !== 'undefined' ? window.location.origin : ''}`;
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
     window.open(url, '_blank');
   }

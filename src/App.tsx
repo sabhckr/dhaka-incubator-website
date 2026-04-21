@@ -4,6 +4,9 @@ import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
 import ProductModal from './components/ProductModal';
 import TrustBadges from './components/TrustBadges';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 import CartDrawer, { type CartItem } from './components/CartDrawer';
 import Footer from './components/Footer';
 import type { Product } from './data';
@@ -42,10 +45,13 @@ export default function App() {
         <Hero lang={lang} />
         <ProductGrid lang={lang} onAdd={addToCart} onView={setActiveProduct} />
         <TrustBadges lang={lang} />
+        <Testimonials lang={lang} />
+        <FAQ lang={lang} />
       </main>
       <Footer lang={lang} />
       <ProductModal product={activeProduct} lang={lang} onClose={() => setActiveProduct(null)} onAdd={addToCart} />
       <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} items={cart} setQty={setQty} remove={remove} lang={lang} />
+      <FloatingWhatsApp lang={lang} />
     </div>
   );
 }
