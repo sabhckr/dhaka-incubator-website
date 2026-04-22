@@ -47,22 +47,33 @@ export function ContentProvider({ children }: { children: ReactNode }) {
   const [categories, setCategories] = useState<ApiCategory[]>([]);
   const [loaded, setLoaded] = useState(false);
 
+  function applyData(data: any) {
+    if (data?.i18n && data.i18n.en && data.i18n.bn) setT(data.i18n);
+    if (Array.isArray(data?.categories)) setCategories(data.categories);
+    if (Array.isArray(data?.products))
+      setProducts(data.products.filter((p: ApiProduct) => p.in_stock).map(toProduct));
+  }
+
   async function reload() {
     try {
       const r = await fetch('/api/content');
       if (!r.ok) throw new Error('content fetch failed');
       const data = await r.json();
-      if (data.i18n && data.i18n.en && data.i18n.bn) setT(data.i18n);
-      if (Array.isArray(data.categories)) setCategories(data.categories);
-      if (Array.isArray(data.products))
-        setProducts(data.products.filter((p: ApiProduct) => p.in_stock).map(toProduct));
+      applyData(data);
+      try { localStorage.setItem('di_content_v1', JSON.stringify(data)); } catch {}
       setLoaded(true);
     } catch {
       setLoaded(true);
     }
   }
 
-  useEffect(() => { reload(); }, []);
+  useEffect(() => {
+    try {
+      const cached = localStorage.getItem('di_content_v1');
+      if (cached) applyData(JSON.parse(cached));
+    } catch {}
+    reload();
+  }, []);
 
   return <Ctx.Provider value={{ t, products, categories, loaded, reload }}>{children}</Ctx.Provider>;
 }

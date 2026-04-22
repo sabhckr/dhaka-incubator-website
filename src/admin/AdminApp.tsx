@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
-import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink } from 'lucide-react';
+import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink, Star, HelpCircle, Phone, ShoppingBag } from 'lucide-react';
 import { adminApi } from './api';
 import Login from './Login';
 import ProductsPanel from './ProductsPanel';
@@ -8,6 +8,10 @@ import CategoriesPanel from './CategoriesPanel';
 import ContentPanel from './ContentPanel';
 import HeroPanel from './HeroPanel';
 import PasswordPanel from './PasswordPanel';
+import TestimonialsPanel from './TestimonialsPanel';
+import FaqPanel from './FaqPanel';
+import ContactPanel from './ContactPanel';
+import OrdersPanel from './OrdersPanel';
 import { useContent } from '../lib/content';
 
 export default function AdminApp() {
@@ -47,10 +51,14 @@ export default function AdminApp() {
             <div className="text-[10px] uppercase tracking-widest text-slate-400">Dhaka Incubator</div>
           </div>
         </div>
-        <nav className="p-3 space-y-1 flex-1">
+        <nav className="p-3 space-y-1 flex-1 overflow-y-auto">
+          <NavLink to="/admin/orders" className={linkCls}><ShoppingBag className="w-4 h-4" />Orders</NavLink>
           <NavLink to="/admin/products" className={linkCls}><Package className="w-4 h-4" />Products</NavLink>
           <NavLink to="/admin/categories" className={linkCls}><Tags className="w-4 h-4" />Categories</NavLink>
           <NavLink to="/admin/hero" className={linkCls}><ImageIcon className="w-4 h-4" />Hero & Video</NavLink>
+          <NavLink to="/admin/testimonials" className={linkCls}><Star className="w-4 h-4" />Testimonials</NavLink>
+          <NavLink to="/admin/faq" className={linkCls}><HelpCircle className="w-4 h-4" />FAQ</NavLink>
+          <NavLink to="/admin/contact" className={linkCls}><Phone className="w-4 h-4" />Contact & WhatsApp</NavLink>
           <NavLink to="/admin/content" className={linkCls}><Languages className="w-4 h-4" />Site Text (EN / বাং)</NavLink>
           <NavLink to="/admin/password" className={linkCls}><KeyRound className="w-4 h-4" />Password</NavLink>
         </nav>
@@ -65,10 +73,14 @@ export default function AdminApp() {
       </aside>
       <main className="ml-64 p-8 max-w-6xl">
         <Routes>
-          <Route path="/" element={<Navigate to="/admin/products" replace />} />
+          <Route path="/" element={<Navigate to="/admin/orders" replace />} />
+          <Route path="/orders" element={<OrdersPanel />} />
           <Route path="/products" element={<ProductsPanel onSaved={reload} />} />
           <Route path="/categories" element={<CategoriesPanel onSaved={reload} />} />
           <Route path="/hero" element={<HeroPanel onSaved={reload} />} />
+          <Route path="/testimonials" element={<TestimonialsPanel onSaved={reload} />} />
+          <Route path="/faq" element={<FaqPanel onSaved={reload} />} />
+          <Route path="/contact" element={<ContactPanel onSaved={reload} />} />
           <Route path="/content" element={<ContentPanel onSaved={reload} />} />
           <Route path="/password" element={<PasswordPanel />} />
         </Routes>

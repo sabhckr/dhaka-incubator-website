@@ -32,6 +32,10 @@ export const adminApi = {
     req(`/api/admin/products/${id}`, { method: 'PUT', body: JSON.stringify(p) }),
   deleteProduct: (id: number) =>
     req(`/api/admin/products/${id}`, { method: 'DELETE' }),
+  listOrders: () => req('/api/admin/orders'),
+  setOrderStatus: (id: number, status: string) =>
+    req(`/api/admin/orders/${id}`, { method: 'PUT', body: JSON.stringify({ status }) }),
+  deleteOrder: (id: number) => req(`/api/admin/orders/${id}`, { method: 'DELETE' }),
   upload: async (file: File): Promise<{ url: string }> => {
     const fd = new FormData();
     fd.append('file', file);

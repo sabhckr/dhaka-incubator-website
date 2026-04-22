@@ -7,38 +7,92 @@ const ADMIN_PASS = process.env.ADMIN_PASS || 'admin';
 const HERO_VIDEO =
   'https://cdn.coverr.co/videos/coverr-aerial-view-of-a-modern-poultry-farm-2640/1080p.mp4';
 
-const I18N_DEFAULTS = {
+export const I18N_EXTRAS_DEFAULT = {
+  contact: {
+    phone: '+8801712345678',
+    whatsapp: '8801712345678',
+    sms: '+8801712345678',
+    address: 'Dhaka, Bangladesh',
+    mapQuery: 'Dhaka+Bangladesh',
+    linkedin: 'https://www.linkedin.com/in/ishak-hasan-sabbir/',
+    developerName: 'Ishak Hasan Sabbir',
+    floatingMsgEn: 'Hello! I have a question about your products.',
+    floatingMsgBn: 'আসসালামু আলাইকুম, আমি একটি পণ্য সম্পর্কে জানতে চাই।',
+    floatingLabelEn: 'Chat on WhatsApp',
+    floatingLabelBn: 'হোয়াটসঅ্যাপে চ্যাট করুন',
+  },
+  testimonials: {
+    titleEn: 'Loved by customers across Bangladesh',
+    titleBn: 'সারা দেশের কাস্টমাররা আমাদের পাশে আছেন',
+    microEn: 'Customer Reviews',
+    microBn: 'কাস্টমার রিভিউ',
+    items: [
+      { name: 'Mizanur Rahman', initials: 'MR', city_en: 'Gazipur', city_bn: 'গাজীপুর', rating: 5, color: 'bg-orange-500',
+        text_en: 'Bought the 96-egg incubator for my small farm. Hatch rate above 90% from week one. Delivery to Gazipur was free and the packaging was excellent.',
+        text_bn: 'আমার ছোট খামারের জন্য ৯৬-ডিমের মেশিনটা নিয়েছিলাম। প্রথম ব্যাচেই ৯০%-এর বেশি ডিম ফুটেছে। গাজীপুরে ফ্রি ডেলিভারি দিয়েছে, বক্সও খুব ভালোভাবে প্যাক করা ছিল।' },
+      { name: 'Sharmin Akter', initials: 'SA', city_en: 'Bogura', city_bn: 'বগুড়া', rating: 5, color: 'bg-rose-500',
+        text_en: 'Ordered the rechargeable fan during heavy load-shedding. Battery lasts the whole evening. Their support team helped me set it up over WhatsApp.',
+        text_bn: 'লোডশেডিং খুব হচ্ছিল, তাই রিচার্জেবল ফ্যানটা অর্ডার করলাম। সারা সন্ধ্যা ভালোমতো চলে। হোয়াটসঅ্যাপে ভাইয়ারা সেটআপ বুঝিয়ে দিয়েছেন, কোনো ঝামেলা হয়নি।' },
+      { name: 'Tanvir Hossain', initials: 'TH', city_en: 'Sylhet', city_bn: 'সিলেট', rating: 4, color: 'bg-emerald-500',
+        text_en: 'COD worked smoothly all the way to Sylhet. The 48-egg unit is well built and the temperature is rock-stable. Recommended.',
+        text_bn: 'সিলেটে বসে অর্ডার দিলাম, ক্যাশ অন ডেলিভারিতে ঠিকভাবে পেয়েছি। ৪৮-ডিমের মেশিনটা মজবুত, তাপমাত্রাও একদম ঠিক থাকে। সবাইকে সাজেস্ট করব।' },
+      { name: 'Rakibul Islam', initials: 'RI', city_en: 'Chattogram', city_bn: 'চট্টগ্রাম', rating: 5, color: 'bg-indigo-500',
+        text_en: 'Replacement was honored within 4 days when one sensor was faulty. Honest sellers — rare these days. Will buy again.',
+        text_bn: 'একটা সেন্সরে সমস্যা হয়েছিল, ভিডিও পাঠানোর ৪ দিনের মাথায় নতুনটা পাঠিয়ে দিয়েছে। এমন সৎ ব্যবসায়ী এখন কম পাওয়া যায়। আবারও কিনব ইনশাআল্লাহ।' },
+      { name: 'Nusrat Jahan', initials: 'NJ', city_en: 'Khulna', city_bn: 'খুলনা', rating: 5, color: 'bg-amber-500',
+        text_en: 'The hygro-thermometer is super accurate. Pairs nicely with my older incubator. Fast shipping to Khulna.',
+        text_bn: 'থার্মোমিটারটা একদম পারফেক্ট মাপ দেয়। আগের পুরনো ইনকিউবেটরের সাথেও ভালো কাজ করছে। খুলনায় দ্রুতই পেয়ে গিয়েছি।' },
+      { name: 'Abdul Karim', initials: 'AK', city_en: 'Rajshahi', city_bn: 'রাজশাহী', rating: 5, color: 'bg-sky-500',
+        text_en: 'Industrial exhaust fan keeps my poultry shed cool and dry. Build quality is heavy-duty. Great after-sales response.',
+        text_bn: 'এক্সহস্ট ফ্যানটা আমার পোল্ট্রি শেড একদম ঠান্ডা আর শুকনো রাখে। বিল্ড কোয়ালিটি অনেক ভালো, আর কেনার পরেও ফোন দিলে রেসপন্স পাই।' },
+    ],
+  },
+  faq: {
+    titleEn: 'Questions, answered', titleBn: 'যা প্রশ্ন আসে, উত্তরও দিচ্ছি',
+    items: [
+      { q_en: 'Will the incubator work during load-shedding?', q_bn: 'লোডশেডিং হলে ইনকিউবেটর চলবে কি?',
+        a_en: 'Yes — every incubator runs on 220V mains and is fully compatible with IPS, solar inverters, and standard generators. Insulation keeps the inner temperature stable for 30–45 minutes during short outages.',
+        a_bn: 'জি, কোনো সমস্যা নেই। সব ইনকিউবেটর ২২০ ভোল্টে চলে, IPS, সোলার বা জেনারেটর — যেকোনোটার সাথে চালাতে পারবেন। ছোটখাটো লোডশেডিং হলেও ভেতরের তাপমাত্রা ৩০–৪৫ মিনিট ঠিক থাকে।' },
+      { q_en: 'Manual vs Automatic — which one should I choose?', q_bn: 'ম্যানুয়াল নাকি অটোমেটিক — কোনটা নেব?',
+        a_en: 'For 24+ eggs or daily commercial use, choose Automatic — it turns eggs every 2 hours on its own. For under 24 eggs, hobby projects, or schools, Manual is cheaper and just as effective if you can rotate eggs 3 times a day.',
+        a_bn: '২৪টার বেশি ডিম হলে বা ব্যবসার জন্য নিলে অটোমেটিক নেন — প্রতি ২ ঘণ্টায় ডিম নিজে নিজে ঘোরে। আর শখ করে বা স্কুলের জন্য নিলে ম্যানুয়াল-ই যথেষ্ট, দামও কম। দিনে ৩ বার হাতে ঘোরালেই হবে।' },
+      { q_en: 'How long does delivery take?', q_bn: 'ডেলিভারিতে কতদিন লাগে?',
+        a_en: 'Inside Dhaka: 24–48 hours. Outside Dhaka: 2–4 working days via Sundarban / SA Paribahan / RedX. You pay the courier directly when the parcel arrives — that is Cash on Delivery.',
+        a_bn: 'ঢাকার ভেতরে ১–২ দিনে পেয়ে যাবেন। ঢাকার বাইরে ২–৪ দিন লাগে (সুন্দরবন, এসএ পরিবহন বা RedX)। পার্সেল হাতে পেয়ে কুরিয়ারকেই টাকা দিবেন — এটাই ক্যাশ অন ডেলিভারি।' },
+      { q_en: 'What is the warranty and how do I claim it?', q_bn: 'ওয়ারেন্টি কতদিনের, কীভাবে পাব?',
+        a_en: 'Incubators carry 1-year service warranty on electronic parts; fans and gadgets carry 6 months. Just send a video of the issue on WhatsApp — we replace, repair, or refund within 7 days.',
+        a_bn: 'ইনকিউবেটরে ইলেকট্রনিক পার্টসের জন্য ১ বছরের ওয়ারেন্টি দিচ্ছি, ফ্যান আর গ্যাজেটে ৬ মাস। কোনো সমস্যা হলে হোয়াটসঅ্যাপে একটা ভিডিও পাঠান — ৭ দিনের ভেতরেই বদলে দেব বা ঠিক করে দেব।' },
+      { q_en: 'Do you offer training or setup support?', q_bn: 'সেটআপ বা ট্রেনিং সাপোর্ট পাব?',
+        a_en: 'Yes. Every order includes a free Bangla setup video and unlimited WhatsApp support for the first month. For commercial buyers we also offer one-on-one calls.',
+        a_bn: 'অবশ্যই। প্রতিটা অর্ডারের সাথে বাংলায় সেটআপ ভিডিও ফ্রি দিচ্ছি, আর প্রথম এক মাস হোয়াটসঅ্যাপে যেকোনো সময় হেল্প পাবেন। ব্যবসার জন্য কিনলে ফোনেও আলাদা করে বুঝিয়ে দেই।' },
+      { q_en: 'Can I see the product before paying?', q_bn: 'টাকা দেওয়ার আগে প্রোডাক্ট দেখতে পারব?',
+        a_en: 'Yes. With Cash on Delivery you may inspect the carton, check the model name, and confirm visible damage before paying the courier. Internal testing happens at home after setup.',
+        a_bn: 'জি অবশ্যই। ক্যাশ অন ডেলিভারিতে টাকা দেওয়ার আগে কার্টন খুলে মডেল আর বাইরের অবস্থা দেখে নিতে পারবেন। ভেতরে চালু করে টেস্ট তো বাসায় গিয়েই করবেন।' },
+    ],
+  },
+};
+
+const I18N_DEFAULTS: any = {
   en: {
     nav: { home: 'Home', products: 'Products', trust: 'Why Us', contact: 'Contact' },
     hero: {
-      badge: '',
-      title1: 'Precision Hatching',
-      title2: 'Technology for Bangladesh.',
-      subtitle:
-        'Advanced automatic incubators, industrial cooling and smart farm gadgets — engineered for higher hatch rates, delivered nationwide with cash on delivery.',
-      shop: 'Shop Products',
-      contact: 'Call Now',
-      videoUrl: HERO_VIDEO,
+      badge: '', title1: 'Precision Hatching', title2: 'Technology for Bangladesh.',
+      subtitle: 'Advanced automatic incubators, industrial cooling and smart farm gadgets — engineered for higher hatch rates, delivered nationwide with cash on delivery.',
+      shop: 'Shop Products', contact: 'Call Now', videoUrl: HERO_VIDEO,
     },
     products: {
-      micro: 'OUR CATALOG',
-      title: 'Engineered for Successful Farms',
+      micro: 'OUR CATALOG', title: 'Engineered for Successful Farms',
       subtitle: 'Industrial-grade equipment, transparent pricing, every district covered.',
       all: 'All', incubator: 'Incubator', fan: 'Fan', gadgets: 'Gadgets',
       stock: 'Limited Stock', add: 'Add', view: 'View Details',
       specs: 'Technical Specifications', addToCart: 'Add to Cart',
     },
     trust: {
-      micro: 'WHY DHAKA INCUBATOR',
-      title: 'Trusted by Successful Farmers',
-      cod: 'Cash on Delivery',
-      codDesc: 'Inspect the carton, verify the model, then pay the courier in cash. No advance payment required.',
-      replace: '7-Day Replacement',
-      replaceDesc: 'Damaged on arrival? Send a short video on WhatsApp and we replace within 7 working days.',
-      support: '24/7 Expert Support',
-      supportDesc: 'Setup help, hatching guidance and troubleshooting over phone, WhatsApp and SMS — even on holidays.',
-      delivery: 'Nationwide Delivery',
-      deliveryDesc: 'We deliver to all 64 districts through Sundarban, SA Paribahan and RedX. Inside Dhaka in 24–48 hours.',
+      micro: 'WHY DHAKA INCUBATOR', title: 'Trusted by Successful Farmers',
+      cod: 'Cash on Delivery', codDesc: 'Inspect the carton, verify the model, then pay the courier in cash. No advance payment required.',
+      replace: '7-Day Replacement', replaceDesc: 'Damaged on arrival? Send a short video on WhatsApp and we replace within 7 working days.',
+      support: '24/7 Expert Support', supportDesc: 'Setup help, hatching guidance and troubleshooting over phone, WhatsApp and SMS — even on holidays.',
+      delivery: 'Nationwide Delivery', deliveryDesc: 'We deliver to all 64 districts through Sundarban, SA Paribahan and RedX. Inside Dhaka in 24–48 hours.',
     },
     cart: {
       title: 'Your Cart', empty: 'Your cart is empty.', total: 'Grand Total',
@@ -51,44 +105,31 @@ const I18N_DEFAULTS = {
     footer: {
       quick: 'Quick Links', home: 'Home', products: 'Products', warranty: 'Warranty',
       warrantyTitle: 'Warranty Policy',
-      warrantyBody:
-        'Every incubator carries a 1-year service warranty on electronic components. Fans and gadgets carry a 6-month warranty. Damage caused by misuse, water exposure or unauthorized repair is not covered.',
+      warrantyBody: 'Every incubator carries a 1-year service warranty on electronic components. Fans and gadgets carry a 6-month warranty. Damage caused by misuse, water exposure or unauthorized repair is not covered.',
       tagline: 'Premium incubators and farm electronics — partner in your farm’s success.',
-      rights: 'All rights reserved.',
-      developed: 'Developed by',
+      rights: 'All rights reserved.', developed: 'Developed by',
     },
   },
   bn: {
     nav: { home: 'হোম', products: 'প্রোডাক্ট', trust: 'কেন আমরা', contact: 'যোগাযোগ' },
     hero: {
-      badge: '',
-      title1: 'ডিম ফোটানোর',
-      title2: 'সবচেয়ে সহজ উপায়।',
-      subtitle:
-        'অটোমেটিক ইনকিউবেটর, ইন্ডাস্ট্রিয়াল ফ্যান আর দরকারি গ্যাজেট — ভালো হ্যাচ পেতে যা যা লাগে, সবই এক জায়গায়। সারাদেশে ক্যাশ অন ডেলিভারিতে পৌঁছে দিচ্ছি।',
-      shop: 'প্রোডাক্ট দেখুন',
-      contact: 'এখনই কল করুন',
-      videoUrl: HERO_VIDEO,
+      badge: '', title1: 'ডিম ফোটানোর', title2: 'সবচেয়ে সহজ উপায়।',
+      subtitle: 'অটোমেটিক ইনকিউবেটর, ইন্ডাস্ট্রিয়াল ফ্যান আর দরকারি গ্যাজেট — ভালো হ্যাচ পেতে যা যা লাগে, সবই এক জায়গায়। সারাদেশে ক্যাশ অন ডেলিভারিতে পৌঁছে দিচ্ছি।',
+      shop: 'প্রোডাক্ট দেখুন', contact: 'এখনই কল করুন', videoUrl: HERO_VIDEO,
     },
     products: {
-      micro: 'OUR CATALOG',
-      title: 'খামারিদের জন্য সেরা প্রোডাক্ট',
+      micro: 'OUR CATALOG', title: 'খামারিদের জন্য সেরা প্রোডাক্ট',
       subtitle: 'ভালো মানের যন্ত্রপাতি, ফিক্সড দাম, আর সারা বাংলাদেশে ডেলিভারি।',
       all: 'সব', incubator: 'ইনকিউবেটর', fan: 'ফ্যান', gadgets: 'গ্যাজেট',
       stock: 'অল্প স্টক', add: 'যোগ', view: 'বিস্তারিত দেখুন',
       specs: 'বিস্তারিত তথ্য', addToCart: 'কার্টে যোগ করুন',
     },
     trust: {
-      micro: 'WHY DHAKA INCUBATOR',
-      title: 'কেন আমাদের কাছে কিনবেন',
-      cod: 'ক্যাশ অন ডেলিভারি',
-      codDesc: 'প্রোডাক্ট হাতে পেয়ে, কার্টন দেখে, তারপর কুরিয়ারকে টাকা দিন। আগে কোনো পেমেন্ট লাগবে না।',
-      replace: '৭ দিনে রিপ্লেসমেন্ট',
-      replaceDesc: 'প্রোডাক্টে কোনো সমস্যা পেলে হোয়াটসঅ্যাপে ছোট একটা ভিডিও পাঠিয়ে দিন। ৭ দিনের ভেতরে বদলে দিচ্ছি।',
-      support: '২৪/৭ সাপোর্ট',
-      supportDesc: 'সেটআপ, ডিম বসানোর পরামর্শ বা যেকোনো সমস্যায় ফোন, হোয়াটসঅ্যাপ বা এসএমএসে আমরা সবসময় আছি — ছুটির দিনেও।',
-      delivery: 'সারাদেশে ডেলিভারি',
-      deliveryDesc: 'সুন্দরবন, এসএ পরিবহন আর RedX দিয়ে ৬৪ জেলায় পাঠাই। ঢাকার ভেতরে ১–২ দিনে পেয়ে যাবেন।',
+      micro: 'WHY DHAKA INCUBATOR', title: 'কেন আমাদের কাছে কিনবেন',
+      cod: 'ক্যাশ অন ডেলিভারি', codDesc: 'প্রোডাক্ট হাতে পেয়ে, কার্টন দেখে, তারপর কুরিয়ারকে টাকা দিন। আগে কোনো পেমেন্ট লাগবে না।',
+      replace: '৭ দিনে রিপ্লেসমেন্ট', replaceDesc: 'প্রোডাক্টে কোনো সমস্যা পেলে হোয়াটসঅ্যাপে ছোট একটা ভিডিও পাঠিয়ে দিন। ৭ দিনের ভেতরে বদলে দিচ্ছি।',
+      support: '২৪/৭ সাপোর্ট', supportDesc: 'সেটআপ, ডিম বসানোর পরামর্শ বা যেকোনো সমস্যায় ফোন, হোয়াটসঅ্যাপ বা এসএমএসে আমরা সবসময় আছি — ছুটির দিনেও।',
+      delivery: 'সারাদেশে ডেলিভারি', deliveryDesc: 'সুন্দরবন, এসএ পরিবহন আর RedX দিয়ে ৬৪ জেলায় পাঠাই। ঢাকার ভেতরে ১–২ দিনে পেয়ে যাবেন।',
     },
     cart: {
       title: 'আপনার কার্ট', empty: 'কার্টে এখনো কিছু নেই।', total: 'সর্বমোট',
@@ -101,13 +142,12 @@ const I18N_DEFAULTS = {
     footer: {
       quick: 'কুইক লিংক', home: 'হোম', products: 'প্রোডাক্ট', warranty: 'ওয়ারেন্টি',
       warrantyTitle: 'ওয়ারেন্টি',
-      warrantyBody:
-        'সব ইনকিউবেটরে ইলেকট্রনিক পার্টসের জন্য ১ বছরের সার্ভিস ওয়ারেন্টি দিচ্ছি। ফ্যান আর গ্যাজেটে ৬ মাসের ওয়ারেন্টি। ভুল ব্যবহার, পানি ঢুকে যাওয়া বা নিজে খুলে নষ্ট হলে কিন্তু ওয়ারেন্টি থাকবে না।',
+      warrantyBody: 'সব ইনকিউবেটরে ইলেকট্রনিক পার্টসের জন্য ১ বছরের সার্ভিস ওয়ারেন্টি দিচ্ছি। ফ্যান আর গ্যাজেটে ৬ মাসের ওয়ারেন্টি। ভুল ব্যবহার, পানি ঢুকে যাওয়া বা নিজে খুলে নষ্ট হলে কিন্তু ওয়ারেন্টি থাকবে না।',
       tagline: 'প্রিমিয়াম ইনকিউবেটর আর খামারের ইলেকট্রনিক্স — আপনার পাশে আছি।',
-      rights: 'সর্বস্বত্ব সংরক্ষিত।',
-      developed: 'ডেভেলপ করেছেন',
+      rights: 'সর্বস্বত্ব সংরক্ষিত।', developed: 'ডেভেলপ করেছেন',
     },
   },
+  ...I18N_EXTRAS_DEFAULT,
 };
 
 const CATEGORIES = [
@@ -203,7 +243,23 @@ const PRODUCTS = [
   },
 ];
 
+export async function ensureSchema() {
+  await q(`CREATE TABLE IF NOT EXISTS orders (
+    id SERIAL PRIMARY KEY,
+    customer_name TEXT NOT NULL,
+    customer_phone TEXT NOT NULL,
+    customer_address TEXT NOT NULL,
+    items JSONB NOT NULL,
+    total NUMERIC(12,2) NOT NULL,
+    note TEXT DEFAULT '',
+    status TEXT NOT NULL DEFAULT 'new',
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+  )`);
+}
+
 export async function seed() {
+  await ensureSchema();
+
   const existing = await q<{ count: string }>('SELECT COUNT(*)::text as count FROM admin_users');
   if (Number(existing[0].count) === 0) {
     const hash = await bcrypt.hash(ADMIN_PASS, 10);
@@ -211,10 +267,21 @@ export async function seed() {
     console.log(`[seed] Admin user "${ADMIN_USER}" created.`);
   }
 
-  const settingsRows = await q<{ count: string }>('SELECT COUNT(*)::text as count FROM settings');
-  if (Number(settingsRows[0].count) === 0) {
+  // Settings: insert defaults if missing, otherwise merge in any newly-added top-level keys
+  const settingsRows = await q<{ value: any }>("SELECT value FROM settings WHERE key = 'i18n'");
+  if (settingsRows.length === 0) {
     await q('INSERT INTO settings (key, value) VALUES ($1, $2)', ['i18n', JSON.stringify(I18N_DEFAULTS)]);
     console.log('[seed] Default i18n inserted.');
+  } else {
+    const cur = settingsRows[0].value || {};
+    let changed = false;
+    for (const k of Object.keys(I18N_EXTRAS_DEFAULT)) {
+      if (cur[k] === undefined) { cur[k] = (I18N_EXTRAS_DEFAULT as any)[k]; changed = true; }
+    }
+    if (changed) {
+      await q("UPDATE settings SET value = $1, updated_at = NOW() WHERE key = 'i18n'", [JSON.stringify(cur)]);
+      console.log('[seed] i18n upgraded with new keys: testimonials/faq/contact.');
+    }
   }
 
   const catRows = await q<{ count: string }>('SELECT COUNT(*)::text as count FROM categories');

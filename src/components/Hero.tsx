@@ -3,11 +3,10 @@ import { ArrowRight, Phone, Sparkles } from 'lucide-react';
 import type { Lang } from '../i18n';
 import { useContent } from '../lib/content';
 
-const PHONE = '+8801712345678';
-
 export default function Hero({ lang }: { lang: Lang }) {
   const { t } = useContent();
   const tr = t[lang].hero as any;
+  const PHONE = ((t as any).contact?.phone) || '+8801712345678';
   const videoUrl = tr.videoUrl || 'https://cdn.coverr.co/videos/coverr-an-industrial-machine-1572/1080p.mp4';
   const bn = lang === 'bn';
   return (

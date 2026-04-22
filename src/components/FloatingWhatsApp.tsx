@@ -1,14 +1,16 @@
 import { MessageCircle } from 'lucide-react';
 import type { Lang } from '../i18n';
-
-const WHATSAPP_NUMBER = '8801712345678';
+import { useContent } from '../lib/content';
 
 export default function FloatingWhatsApp({ lang }: { lang: Lang }) {
-  const label = lang === 'bn' ? 'হোয়াটসঅ্যাপে চ্যাট করুন' : 'Chat on WhatsApp';
+  const { t } = useContent();
+  const c = (t as any).contact || {};
+  const number = c.whatsapp || '8801712345678';
+  const label = lang === 'bn' ? (c.floatingLabelBn || 'হোয়াটসঅ্যাপে চ্যাট করুন') : (c.floatingLabelEn || 'Chat on WhatsApp');
   const msg = lang === 'bn'
-    ? 'আসসালামু আলাইকুম, আমি একটি পণ্য সম্পর্কে জানতে চাই।'
-    : 'Hello! I have a question about your products.';
-  const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+    ? (c.floatingMsgBn || 'আসসালামু আলাইকুম, আমি একটি পণ্য সম্পর্কে জানতে চাই।')
+    : (c.floatingMsgEn || 'Hello! I have a question about your products.');
+  const href = `https://wa.me/${number}?text=${encodeURIComponent(msg)}`;
 
   return (
     <a

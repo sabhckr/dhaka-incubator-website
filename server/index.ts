@@ -210,6 +210,40 @@ app.post('/api/admin/upload', requireAuth, upload.single('file'), (req, res) => 
   res.json({ url: `/uploads/${req.file.filename}` });
 });
 
+// ---------- orders ----------
+app.post('/api/orders', async (req, res) => {
+  const { customer_name, customer_phone, customer_address, items, total, note } = req.body || {};
+  if (!customer_name || !customer_phone || !customer_address || !Array.isArray(items) || items.length === 0)
+    return res.status(400).json({ error: 'invalid order' });
+  try {
+    const r = await q<{ id: number }>(
+      `INSERT INTO orders (customer_name, customer_phone, customer_address, items, total, note)
+       VALUES ($1,$2,$3,$4,$5,$6) RETURNING id`,
+      [customer_name, customer_phone, customer_address, JSON.stringify(items), Number(total) || 0, note || ''],
+    );
+    res.json({ id: r[0].id });
+  } catch (e: any) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/admin/orders', requireAuth, async (_req, res) => {
+  const rows = await q(`SELECT id, customer_name, customer_phone, customer_address, items, total, note, status, created_at
+                          FROM orders ORDER BY created_at DESC LIMIT 500`);
+  res.json(rows);
+});
+
+app.put('/api/admin/orders/:id', requireAuth, async (req, res) => {
+  const { status } = req.body || {};
+  await q('UPDATE orders SET status = $1 WHERE id = $2', [status, req.params.id]);
+  res.json({ ok: true });
+});
+
+app.delete('/api/admin/orders/:id', requireAuth, async (req, res) => {
+  await q('DELETE FROM orders WHERE id = $1', [req.params.id]);
+  res.json({ ok: true });
+});
+
 // ---------- bootstrap ----------
 seed().then(() => {
   app.listen(PORT, '0.0.0.0', () => console.log(`[server] listening on :${PORT}`));

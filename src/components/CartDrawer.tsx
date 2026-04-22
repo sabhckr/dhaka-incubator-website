@@ -16,18 +16,31 @@ type Props = {
   lang: Lang;
 };
 
-const WHATSAPP_NUMBER = '8801712345678';
-
 export default function CartDrawer({ open, onClose, items, setQty, remove, lang }: Props) {
   const { t } = useContent();
   const tr = t[lang].cart;
   const bn = lang === 'bn';
   const total = items.reduce((s, i) => s + i.product.price * i.qty, 0);
+  const WHATSAPP_NUMBER = ((t as any).contact?.whatsapp) || '8801712345678';
 
   const [form, setForm] = useState({ name: '', phone: '', address: '' });
 
-  function checkout() {
+  async function checkout() {
     if (!form.name || !form.phone || !form.address || items.length === 0) return;
+    const orderItems = items.map((i) => ({
+      slug: i.product.id, name_en: i.product.name.en, name_bn: i.product.name.bn,
+      qty: i.qty, price: i.product.price, line_total: i.product.price * i.qty,
+    }));
+    try {
+      await fetch('/api/orders', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          customer_name: form.name, customer_phone: form.phone, customer_address: form.address,
+          items: orderItems, total, note: '',
+        }),
+      });
+    } catch { /* fail silent — WhatsApp still opens */ }
+
     const lines = items.map(
       (i, n) => `${n + 1}. ${i.product.name.en}  ×${i.qty}  =  ৳${(i.product.price * i.qty).toLocaleString()}`
     );

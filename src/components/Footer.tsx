@@ -4,15 +4,16 @@ import { Phone, MessageSquare, MapPin, Linkedin, X, ShieldCheck } from 'lucide-r
 import type { Lang } from '../i18n';
 import { useContent } from '../lib/content';
 
-const PHONE = '+8801712345678';
-const SMS = '+8801712345678';
-const MAP_QUERY = 'Dhaka+Bangladesh';
-const LINKEDIN = 'https://www.linkedin.com/in/ishak-hasan-sabbir/';
-
 export default function Footer({ lang }: { lang: Lang }) {
   const [openWarranty, setOpenWarranty] = useState(false);
   const { t } = useContent();
   const tr = t[lang].footer;
+  const c = (t as any).contact || {};
+  const PHONE = c.phone || '+8801712345678';
+  const SMS = c.sms || PHONE;
+  const MAP_QUERY = c.mapQuery || 'Dhaka+Bangladesh';
+  const LINKEDIN = c.linkedin || 'https://www.linkedin.com/in/ishak-hasan-sabbir/';
+  const DEV_NAME = c.developerName || 'Ishak Hasan Sabbir';
   const bn = lang === 'bn';
 
   function scrollTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
@@ -64,7 +65,7 @@ export default function Footer({ lang }: { lang: Lang }) {
           <div className="inline-flex items-center gap-1.5">
             {tr.developed}{' '}
             <a href={LINKEDIN} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-[var(--color-brand)] hover:underline">
-              Ishak Hasan Sabbir <Linkedin className="w-3 h-3" />
+              {DEV_NAME} <Linkedin className="w-3 h-3" />
             </a>
           </div>
         </div>

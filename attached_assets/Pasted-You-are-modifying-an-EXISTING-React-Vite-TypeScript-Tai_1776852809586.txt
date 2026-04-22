@@ -1,0 +1,153 @@
+You are modifying an EXISTING React + Vite + TypeScript + Tailwind e-commerce landing page.
+
+⚠️ THIS IS A STRICT NON-DESTRUCTIVE BACKEND + ADMIN INTEGRATION TASK.
+
+━━━━━━━━━━━━━━━━━━━━
+🛑 HARD RULES (ABSOLUTE)
+━━━━━━━━━━━━━━━━━━━━
+- DO NOT change ANY existing UI
+- DO NOT modify ANY existing HTML, CSS, Tailwind classes, layout, spacing, or design
+- DO NOT change any component structure
+- DO NOT refactor existing logic
+- DO NOT rename variables or components
+- DO NOT remove or replace any code
+- DO NOT break any feature (cart, modal, animations, language toggle, etc.)
+- DO NOT change text, styling, animation, or behavior
+
+✅ ONLY ADD new code in a way that plugs into the existing system
+
+━━━━━━━━━━━━━━━━━━━━
+🎯 OBJECTIVE
+━━━━━━━━━━━━━━━━━━━━
+Add a FULL ADMIN PANEL + BACKEND so that ALL website content can be edited dynamically (A to Z), while keeping the frontend visually and functionally IDENTICAL.
+
+━━━━━━━━━━━━━━━━━━━━
+🧩 SYSTEM ARCHITECTURE
+━━━━━━━━━━━━━━━━━━━━
+
+1. Add a headless CMS backend (Strapi preferred)
+2. Connect frontend to API using fetch/axios
+3. Replace ALL hardcoded data with dynamic API data
+4. Add fallback to existing static data if API fails
+
+━━━━━━━━━━━━━━━━━━━━
+📦 DATA TO MAKE DYNAMIC (A → Z)
+━━━━━━━━━━━━━━━━━━━━
+
+Convert ALL static content into API-driven content:
+
+- Products (name, price, old price, stock, image, description, specs, category)
+- Hero section (title, subtitle, video, CTA text)
+- Testimonials (name, city, rating, review)
+- FAQ (question, answer)
+- Trust badges (title, description)
+- Contact info (phone, WhatsApp, address)
+- Cart WhatsApp number
+- Language content (EN + BN)
+
+━━━━━━━━━━━━━━━━━━━━
+🔌 FRONTEND INTEGRATION RULES
+━━━━━━━━━━━━━━━━━━━━
+
+- Create a new folder: /services/api.ts
+- All API calls must be isolated here
+- Use async fetch functions like:
+  getProducts()
+  getTestimonials()
+  getFAQ()
+  getSettings()
+
+- In components:
+  - Replace static arrays with API data using useEffect + useState
+  - DO NOT change JSX structure
+  - Only replace the DATA SOURCE
+
+Example:
+
+❌ DO NOT change UI:
+<div className="rounded-[2rem] p-4">...</div>
+
+✅ ONLY change:
+const [products, setProducts] = useState(staticProducts)
+
+→ to
+
+const [products, setProducts] = useState([])
+useEffect(() => {
+  getProducts().then(setProducts).catch(() => setProducts(staticProducts))
+}, [])
+
+━━━━━━━━━━━━━━━━━━━━
+🛡 FALLBACK SAFETY (VERY IMPORTANT)
+━━━━━━━━━━━━━━━━━━━━
+
+- If API fails → use existing hardcoded data
+- UI must NEVER break
+- Website must still work offline/static
+
+━━━━━━━━━━━━━━━━━━━━
+🧑‍💻 ADMIN PANEL (STRAPI)
+━━━━━━━━━━━━━━━━━━━━
+
+Create collections:
+
+1. Products
+2. Testimonials
+3. FAQ
+4. Settings (global content)
+5. Orders
+
+Each must support:
+- English + Bangla fields
+- Image upload
+- Publish/unpublish
+- Stock control
+
+━━━━━━━━━━━━━━━━━━━━
+🛒 ORDERS SYSTEM
+━━━━━━━━━━━━━━━━━━━━
+
+- When user clicks checkout:
+  1. Save order to backend (POST /orders)
+  2. THEN open WhatsApp with same message (existing system unchanged)
+
+━━━━━━━━━━━━━━━━━━━━
+🌐 LANGUAGE SYSTEM
+━━━━━━━━━━━━━━━━━━━━
+
+- Keep existing toggle logic EXACTLY as is
+- Fetch both EN + BN content from API
+- Render based on current language state
+- DO NOT modify toggle UI
+
+━━━━━━━━━━━━━━━━━━━━
+⚡ PERFORMANCE RULES
+━━━━━━━━━━━━━━━━━━━━
+
+- Use lazy loading for API calls
+- Cache responses in localStorage
+- Avoid re-fetching on every render
+
+━━━━━━━━━━━━━━━━━━━━
+🚀 FINAL RESULT
+━━━━━━━━━━━━━━━━━━━━
+
+- Website looks EXACTLY the same (pixel-perfect)
+- All content is editable from admin panel
+- No feature is broken
+- No UI is changed
+- Fully dynamic system with static fallback
+
+━━━━━━━━━━━━━━━━━━━━
+🧪 VALIDATION CHECKLIST
+━━━━━━━━━━━━━━━━━━━━
+
+✔ UI unchanged  
+✔ Cart works  
+✔ WhatsApp checkout works  
+✔ Language toggle works  
+✔ Animations work  
+✔ Admin can edit everything  
+✔ Site works even if backend is down  
+
+If ANY of these fail → the task is incorrect.
