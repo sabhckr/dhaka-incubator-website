@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Minus, Plus, Trash2, Send } from 'lucide-react';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 import type { Product } from '../data';
 
 export type CartItem = { product: Product; qty: number };
@@ -19,6 +19,7 @@ type Props = {
 const WHATSAPP_NUMBER = '8801712345678';
 
 export default function CartDrawer({ open, onClose, items, setQty, remove, lang }: Props) {
+  const { t } = useContent();
   const tr = t[lang].cart;
   const bn = lang === 'bn';
   const total = items.reduce((s, i) => s + i.product.price * i.qty, 0);

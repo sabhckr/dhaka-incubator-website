@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Plus, Flame } from 'lucide-react';
-import { PRODUCTS, type Product, type Category } from '../data';
+import type { Product } from '../data';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 type Props = {
   lang: Lang;
@@ -11,16 +11,20 @@ type Props = {
   onView: (p: Product) => void;
 };
 
-const FILTERS: ('All' | Category)[] = ['All', 'Incubator', 'Fan', 'Gadgets'];
-
 export default function ProductGrid({ lang, onAdd, onView }: Props) {
-  const [active, setActive] = useState<'All' | Category>('All');
-  const tr = t[lang].products;
+  const [active, setActive] = useState<string>('All');
+  const { t, products, categories } = useContent();
+  const tr = t[lang].products as any;
   const bn = lang === 'bn';
 
+  const filters = useMemo(
+    () => [{ slug: 'All', name_en: tr.all, name_bn: tr.all }, ...categories.map((c) => ({ slug: c.slug, name_en: c.name_en, name_bn: c.name_bn }))],
+    [categories, tr.all],
+  );
+
   const items = useMemo(
-    () => (active === 'All' ? PRODUCTS : PRODUCTS.filter((p) => p.category === active)),
-    [active]
+    () => (active === 'All' ? products : products.filter((p) => p.category === active)),
+    [active, products],
   );
 
   return (
@@ -35,13 +39,13 @@ export default function ProductGrid({ lang, onAdd, onView }: Props) {
         </div>
 
         <div className="mt-8 flex flex-wrap justify-center gap-2">
-          {FILTERS.map((f) => {
-            const label = f === 'All' ? tr.all : f === 'Incubator' ? tr.incubator : f === 'Fan' ? tr.fan : tr.gadgets;
-            const isActive = active === f;
+          {filters.map((f) => {
+            const isActive = active === f.slug;
+            const label = bn ? f.name_bn : f.name_en;
             return (
               <button
-                key={f}
-                onClick={() => setActive(f)}
+                key={f.slug}
+                onClick={() => setActive(f.slug)}
                 className={`px-4 py-2 rounded-full text-sm font-semibold border transition ${
                   isActive
                     ? 'bg-[var(--color-brand)] text-white border-[var(--color-brand)]'

@@ -3,12 +3,13 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Banknote, RefreshCcw, Headphones, MapPin, X } from 'lucide-react';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 type Key = 'cod' | 'replace' | 'support' | 'delivery';
 
 export default function TrustBadges({ lang }: { lang: Lang }) {
   const [open, setOpen] = useState<Key | null>(null);
+  const { t } = useContent();
   const tr = t[lang].trust;
   const bn = lang === 'bn';
 

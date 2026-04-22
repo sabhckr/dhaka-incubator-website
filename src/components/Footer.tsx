@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, MessageSquare, MapPin, Linkedin, X, ShieldCheck } from 'lucide-react';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 const PHONE = '+8801712345678';
 const SMS = '+8801712345678';
@@ -11,6 +11,7 @@ const LINKEDIN = 'https://www.linkedin.com/in/ishak-hasan-sabbir/';
 
 export default function Footer({ lang }: { lang: Lang }) {
   const [openWarranty, setOpenWarranty] = useState(false);
+  const { t } = useContent();
   const tr = t[lang].footer;
   const bn = lang === 'bn';
 

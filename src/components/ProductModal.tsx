@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, ShoppingBag, Check } from 'lucide-react';
 import type { Product } from '../data';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 type Props = {
   product: Product | null;
@@ -12,6 +12,7 @@ type Props = {
 };
 
 export default function ProductModal({ product, lang, onClose, onAdd }: Props) {
+  const { t } = useContent();
   const tr = t[lang].products;
   const bn = lang === 'bn';
 

@@ -1,12 +1,14 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Phone, Sparkles } from 'lucide-react';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 const PHONE = '+8801712345678';
 
 export default function Hero({ lang }: { lang: Lang }) {
-  const tr = t[lang].hero;
+  const { t } = useContent();
+  const tr = t[lang].hero as any;
+  const videoUrl = tr.videoUrl || 'https://cdn.coverr.co/videos/coverr-an-industrial-machine-1572/1080p.mp4';
   const bn = lang === 'bn';
   return (
     <section id="top" className="relative h-screen min-h-[640px] w-full overflow-hidden">
@@ -16,7 +18,7 @@ export default function Hero({ lang }: { lang: Lang }) {
         autoPlay muted loop playsInline
         poster="https://images.unsplash.com/photo-1581092580494-9e3b7e0e0c9b?auto=format&fit=crop&w=1600&q=60"
       >
-        <source src="https://cdn.coverr.co/videos/coverr-an-industrial-machine-1572/1080p.mp4" type="video/mp4" />
+        <source src={videoUrl} type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
 

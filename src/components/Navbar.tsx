@@ -1,7 +1,7 @@
 import { ShoppingBag, Globe } from 'lucide-react';
 import { motion } from 'motion/react';
 import type { Lang } from '../i18n';
-import { t } from '../i18n';
+import { useContent } from '../lib/content';
 
 type Props = {
   lang: Lang;
@@ -11,6 +11,7 @@ type Props = {
 };
 
 export default function Navbar({ lang, setLang, cartCount, openCart }: Props) {
+  const { t } = useContent();
   const tr = t[lang];
   return (
     <header className="glass fixed top-0 inset-x-0 z-40">
