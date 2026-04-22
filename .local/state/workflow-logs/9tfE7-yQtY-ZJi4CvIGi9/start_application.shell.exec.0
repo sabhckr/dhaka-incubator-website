@@ -1,0 +1,1750 @@
+[1G[0K⠙[1G[0K
+> react-example@0.0.0 dev
+> vite --port=5000 --host=0.0.0.0
+
+[1G[0K⠙[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v6.4.2[39m  [2mready in [0m[1m1043[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.94.162:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4139|    }
+4140|  }
+4141|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4142|  html, body, #root {
+4143|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpackage.json[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.replit[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:02:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpackage.json[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:04:35 AM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m10:04:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+[2m10:04:36 AM[22m [36m[1m[vite][22m[39m server restarted.
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:04:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpackage.json[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/TrustBadges.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/CartDrawer.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/CartDrawer.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ProductModal.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ProductModal.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ProductGrid.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:05:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ProductGrid.tsx, /src/index.css[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m10:06:07 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:07 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m10:06:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mreact-router-dom[32m[39m
+[2m10:06:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m10:06:08 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:08 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/api.ts[22m
+[2m10:06:14 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4153|    }
+4154|  }
+4155|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4156|  html, body, #root {
+4157|    height: 100%;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:14 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m10:06:18 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:18 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m10:06:19 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:20 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+[2m10:06:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:27 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./admin/AdminApp" from "src/main.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/main.tsx[39m:5:21
+[33m  4  |  import { BrowserRouter, Routes, Route } from "react-router-dom";
+  5  |  import App from "./App";
+  6  |  import AdminApp from "./admin/AdminApp";
+     |                        ^
+  7  |  import { ContentProvider } from "./lib/content";
+  8  |  import "./index.css";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/AdminApp.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4183|    }
+4184|  }
+4185|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4186|  html, body, #root {
+4187|    height: 100%;[39m
+[2m10:06:28 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./Login" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:5:18
+[33m  5  |  import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink } from "lucide-react";
+  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+     |                     ^
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:29 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Login" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:5:18
+[33m  5  |  import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink } from "lucide-react";
+  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+     |                     ^
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:31 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Login" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:5:18
+[33m  5  |  import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink } from "lucide-react";
+  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+     |                     ^
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:32 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./Login" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:5:18
+[33m  5  |  import { LogOut, Package, Tags, Languages, Image as ImageIcon, KeyRound, ExternalLink } from "lucide-react";
+  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+     |                     ^
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/Login.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4206|    }
+4207|  }
+4208|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4209|  html, body, #root {
+4210|    height: 100%;[39m
+[2m10:06:35 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./ProductsPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:6:26
+[33m  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+     |                             ^
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:35 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./ProductsPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:6:26
+[33m  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+     |                             ^
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/ImageInput.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4213|    }
+4214|  }
+4215|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4216|  html, body, #root {
+4217|    height: 100%;[39m
+[2m10:06:43 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./ProductsPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:6:26
+[33m  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+     |                             ^
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:43 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./ProductsPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:6:26
+[33m  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+     |                             ^
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:49 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./ProductsPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:6:26
+[33m  6  |  import { adminApi } from "./api";
+  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+     |                             ^
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/ProductsPanel.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4285|    }
+4286|  }
+4287|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4288|  html, body, #root {
+4289|    height: 100%;[39m
+[2m10:07:16 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./CategoriesPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:7:28
+[33m  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+     |                               ^
+  10 |  import ContentPanel from "./ContentPanel";
+  11 |  import HeroPanel from "./HeroPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:16 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./CategoriesPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:7:28
+[33m  7  |  import Login from "./Login";
+  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+     |                               ^
+  10 |  import ContentPanel from "./ContentPanel";
+  11 |  import HeroPanel from "./HeroPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/CategoriesPanel.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4285|    }
+4286|  }
+4287|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4288|  html, body, #root {
+4289|    height: 100%;[39m
+[2m10:07:30 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./ContentPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:8:25
+[33m  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";
+     |                            ^
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:31 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./ContentPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:8:25
+[33m  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";
+     |                            ^
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/HeroPanel.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4296|    }
+4297|  }
+4298|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4299|  html, body, #root {
+4300|    height: 100%;[39m
+[2m10:07:46 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./ContentPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:8:25
+[33m  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";
+     |                            ^
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:07:46 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./ContentPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:8:25
+[33m  8  |  import ProductsPanel from "./ProductsPanel";
+  9  |  import CategoriesPanel from "./CategoriesPanel";
+  10 |  import ContentPanel from "./ContentPanel";
+     |                            ^
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/ContentPanel.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4296|    }
+4297|  }
+4298|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4299|  html, body, #root {
+4300|    height: 100%;[39m
+[2m10:08:06 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./PasswordPanel" from "src/admin/AdminApp.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:10:26
+[33m  10 |  import ContentPanel from "./ContentPanel";
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";
+     |                             ^
+  13 |  import { useContent } from "../lib/content";
+  14 |  export default function AdminApp() {[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:06 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./PasswordPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:10:26
+[33m  10 |  import ContentPanel from "./ContentPanel";
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";
+     |                             ^
+  13 |  import { useContent } from "../lib/content";
+  14 |  export default function AdminApp() {[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:10 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./PasswordPanel" from "src/admin/AdminApp.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/src/admin/AdminApp.tsx[39m:10:26
+[33m  10 |  import ContentPanel from "./ContentPanel";
+  11 |  import HeroPanel from "./HeroPanel";
+  12 |  import PasswordPanel from "./PasswordPanel";
+     |                             ^
+  13 |  import { useContent } from "../lib/content";
+  14 |  export default function AdminApp() {[39m
+      at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42553:41)
+      at TransformPluginContext.error (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42550:16)
+      at normalizeUrl (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40529:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40648:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:40575:7)
+      at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:42348:18)
+      at async loadAndTransform (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:35740:27)
+      at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:37264:24) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/admin/PasswordPanel.tsx[22m
+[33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+4296|    }
+4297|  }
+4298|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4299|  html, body, #root {
+4300|    height: 100%;[39m

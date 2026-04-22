@@ -1,0 +1,41 @@
+
+> react-example@0.0.0 dev
+> concurrently -k -n web,api -c blue,green "vite --port=5000 --host=0.0.0.0" "tsx watch server/index.ts"
+
+[1G[0K[34m[web][39m 
+[34m[web][39m   [32m[1mVITE[22m v6.4.2[39m  [2mready in [0m[1m775[22m[2m[0m ms[22m
+[34m[web][39m 
+[34m[web][39m   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+[34m[web][39m   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.94.162:[1m5000[22m/[39m
+[32m[api][39m [server] listening on :3001
+[34m[web][39m [33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+[34m[web][39m 4353|    }
+[34m[web][39m 4354|  }
+[34m[web][39m 4355|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+[34m[web][39m    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[34m[web][39m 4356|  html, body, #root {
+[34m[web][39m 4357|    height: 100%;[39m
+[34m[web][39m [2m10:35:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.replit[22m
+[34m[web][39m [33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+[34m[web][39m 4353|    }
+[34m[web][39m 4354|  }
+[34m[web][39m 4355|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+[34m[web][39m    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[34m[web][39m 4356|  html, body, #root {
+[34m[web][39m 4357|    height: 100%;[39m
+[34m[web][39m [2m10:36:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Testimonials.tsx, /src/index.css[22m
+[34m[web][39m [33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+[34m[web][39m 4353|    }
+[34m[web][39m 4354|  }
+[34m[web][39m 4355|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+[34m[web][39m    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[34m[web][39m 4356|  html, body, #root {
+[34m[web][39m 4357|    height: 100%;[39m
+[34m[web][39m [2m10:37:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/FAQ.tsx, /src/index.css[22m
+[34m[web][39m [33m[vite:css][postcss] @import must precede all other statements (besides @charset or empty @layer)
+[34m[web][39m 4353|    }
+[34m[web][39m 4354|  }
+[34m[web][39m 4355|  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+[34m[web][39m    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[34m[web][39m 4356|  html, body, #root {
+[34m[web][39m 4357|    height: 100%;[39m
